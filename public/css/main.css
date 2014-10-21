@@ -1,0 +1,28 @@
+body {
+	background: #5ca9e0;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	margin: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+ul {
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	color: #000000;
+}
+
+i:hover {
+	color: #ffffff;
+}
+
