@@ -1,0 +1,45 @@
+body {
+	background: #7FBFC9;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	margin: 100px 0px 0px 0px;
+	text-align: center;
+}
+
+ul {
+	margin: 35px 0px 0px 0px;
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+	margin: 0px 30px 0px 30px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+li:hover .social-icon {
+	color: #ffffff;
+}
+
+.social-text {
+	font-family: 'Lora', sans-serif;
+	margin: 5px 0px 0px 0px;
+	color: #ffffff;
+	font-size: 15px;
+	opacity: 0; /* set to 1 on hover */
+}
+
+li:hover .social-text {
+	color: #ffffff;
+	opacity: 1;
+	transition: opacity .5s ease-in-out;
+   	-moz-transition: opacity .5s ease-in-out;
+   	-webkit-transition: opacity .5s ease-in-out;
+}
