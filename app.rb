@@ -1,5 +1,6 @@
 # app.rb
 require 'sinatra'
+require 'haml'
 
 class PersonalWebsite < Sinatra::Base
 	set :environment, :production
