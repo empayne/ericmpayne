@@ -8,7 +8,6 @@ class PersonalWebsite < Sinatra::Base
 	set :show_exceptions, false
 
 	get %r{.*} do		# Show same page for any get request (for now)
-		puts "in here"
 	  haml :index
 	end
 
