@@ -12,7 +12,7 @@ class PersonalWebsite < Sinatra::Base
 	end
 
 	error do
-		puts "An error occurred..."
+	  puts "An error occurred..."
 	end
 
 end
